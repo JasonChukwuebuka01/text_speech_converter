@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Text Speech Converter - Jason Chuwuebuka</title>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      />
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <section class="container">
+         <header>Convert Text to Speech</header>
+
+         <i class="fa-sharp fa-solid fa-microphone fa-beat-fade"></i>
+
+         <textarea id="user_input" placeholder="write text..."></textarea>
+
+         <div class="inner_wrapper">
+            <select id="select"></select>
+            <article class="play_pause">
+               <button id="play">Play</button>
+               <button id="pause">Pause</button>
+            </article>
+         </div>
+
+         <button>Convert</button>
+      </section>
+
+      <script src="js/main.js"></script>
+      <script src="https://code.responsivevoice.org/responsivevoice.js?key=hVhrg0gf"></script>
+   </body>
+</html>
